@@ -1,4 +1,4 @@
 # circleci-helloworld
 Circleci helloworld
 
-FooBar
+Foo
