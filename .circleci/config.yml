@@ -14,11 +14,9 @@ jobs:
       - run: echo "building"
 workflows:
   version: 2
-  build:
+  build_step:
     jobs:
       - build
-  test:
-    requires:
-      - build
-    jobs:
-      - test
+      - test:
+        requires:
+          - build
